@@ -1,0 +1,4 @@
+/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/rebuild_cache.dir
+/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/ui.dir
+/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/edit_cache.dir
+/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/ui_autogen.dir
