@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-3bb11806c77c7582f73f2c888b1be974 CMakeFiles/demo_3d_autogen
-91380c056902bb663f51cc9134af461c ui_mainwindow.h

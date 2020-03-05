@@ -45,6 +45,9 @@ public:
 
 private:
   Ui::MainWindow *ui;
+  vtkNew<vtkRenderer> ren;
+private slots:
+  void show_bottom();
 };
 
 #endif // MAINWINDOW_H

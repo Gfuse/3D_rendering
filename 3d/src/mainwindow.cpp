@@ -58,10 +58,9 @@ MainWindow::MainWindow(QWidget *parent) :
     actor->SetMapper(mapper);
 
     // VTK Renderer
-    vtkNew<vtkRenderer> ren;
 
     // Add Actor to renderer
-    //ren->AddActor(actor);
+    ren->AddActor(actor);
     vtkNew<vtkGenericOpenGLRenderWindow> renderWindow;
     this->ui->qvtk->SetRenderWindow(renderWindow);
     this->ui->qvtk->GetRenderWindow()->AddRenderer(ren);
@@ -71,4 +70,7 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+void MainWindow::show_bottom(){
+
 }
