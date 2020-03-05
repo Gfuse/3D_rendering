@@ -1,33 +1,48 @@
-project( ui )
-cmake_minimum_required( VERSION 2.8.3 )
+project( demo_3d )
 
-set( CMAKE_PREFIX_PATH ${CMAKE_PREFIX_PATH} $ENV{QT5_DIR} )
+cmake_minimum_required(VERSION 3.3...3.12 FATAL_ERROR)
+foreach(p
+    CMP0071 # 3.10: Let AUTOMOC and AUTOUIC process GENERATED files
+    )
+  if(POLICY ${p})
+    cmake_policy(SET ${p} NEW)
+  endif()
+endforeach()
+
 set( CMAKE_INCLUDE_CURRENT_DIR ON )
-set( CMAKE_AUTOMOC ON )
 
-find_package(Qt5Widgets REQUIRED)
-find_package( OpenCV REQUIRED )
-#find_package(catkin REQUIRED)
-find_package(PCL 1.7.2 REQUIRED)
+#------------find vtk
+find_package(VTK COMPONENTS
+  vtkCommonCore
+  vtkFiltersCore
+  vtkInfovisCore
+  vtkInteractionStyle
+  vtkViewsQt
+)
+if (NOT VTK_FOUND)
+  message("${PROJECT_NAME}: ${VTK_NOT_FOUND_MESSAGE}")
+  return ()
+endif()
+message (STATUS "VTK_VERSION: ${VTK_VERSION}")
+include(${VTK_USE_FILE})
 
-#catkin_package(
-#     CATKIN_DEPENDS roscpp std_msgs geometry_msgs sensor_msgs
-#     INCLUDE_DIRS include ${PCL_INCLUDE_DIRS}
-#		 )
+if("${VTK_QT_VERSION}" STREQUAL "")
+  message(FATAL_ERROR "VTK was not built with Qt")
+endif()
+include(${VTK_USE_FILE})
+
+#-------------find qt
+set(CMAKE_AUTOMOC ON)
+
+find_package(Qt5 5.13 COMPONENTS Widgets REQUIRED QUIET)
+
 
 qt5_wrap_ui(UI_HEADERS ui/mainwindow.ui)
-include_directories(include
-                    #${catkin_INCLUDE_DIRS}
-                    ${PCL_INCLUDE_DIRS}
-		    
-                    )
-link_directories(${PCL_LIBRARY_DIRS})
-add_definitions(${PCL_DEFINITIONS})
 
-add_executable( ${PROJECT_NAME} src/main.cpp src/mainwindow.cpp include/mainwindow.h ${UI_HEADERS})
-target_link_libraries( ${PROJECT_NAME}
-                       Qt5::Widgets
-                       #${catkin_LIBRARIES}
-                       ${PCL_LIBRARIES}
-${OpenCV_LIBS})
+include_directories(include ${VTK_INCLUDE_DIRS})
+
+
+
+add_executable( ${PROJECT_NAME} MACOSX_BUNDLE src/main.cpp src/mainwindow.cpp include/mainwindow.h ${UI_HEADERS})
+target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Gui Qt5::Widgets ${VTK_LIBRARIES})
 

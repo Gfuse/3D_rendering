@@ -1,4 +1,4 @@
-/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/rebuild_cache.dir
-/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/ui.dir
-/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/edit_cache.dir
-/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/ui_autogen.dir
+/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles/rebuild_cache.dir
+/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles/demo_3d.dir
+/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles/edit_cache.dir
+/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles/demo_3d_autogen.dir

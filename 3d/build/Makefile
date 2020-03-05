@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/majid/Projects/taha/Pcl Demo/ui"
+CMAKE_SOURCE_DIR = /home/majid/Projects/p_demo_02_3d/3d
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/majid/Projects/taha/Pcl Demo/ui/build"
+CMAKE_BINARY_DIR = /home/majid/Projects/p_demo_02_3d/3d/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles" "/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles /home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/majid/Projects/taha/Pcl Demo/ui/build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,30 +111,57 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ui
+# Target rules for targets named demo_3d
 
 # Build rule for target.
-ui: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ui
-.PHONY : ui
+demo_3d: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_3d
+.PHONY : demo_3d
 
 # fast build rule for target.
-ui/fast:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/build
-.PHONY : ui/fast
+demo_3d/fast:
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/build
+.PHONY : demo_3d/fast
 
 #=============================================================================
-# Target rules for targets named ui_autogen
+# Target rules for targets named demo_3d_autogen
 
 # Build rule for target.
-ui_autogen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ui_autogen
-.PHONY : ui_autogen
+demo_3d_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 demo_3d_autogen
+.PHONY : demo_3d_autogen
 
 # fast build rule for target.
-ui_autogen/fast:
-	$(MAKE) -f CMakeFiles/ui_autogen.dir/build.make CMakeFiles/ui_autogen.dir/build
-.PHONY : ui_autogen/fast
+demo_3d_autogen/fast:
+	$(MAKE) -f CMakeFiles/demo_3d_autogen.dir/build.make CMakeFiles/demo_3d_autogen.dir/build
+.PHONY : demo_3d_autogen/fast
+
+demo_3d_autogen/mocs_compilation.o: demo_3d_autogen/mocs_compilation.cpp.o
+
+.PHONY : demo_3d_autogen/mocs_compilation.o
+
+# target to build an object file
+demo_3d_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o
+.PHONY : demo_3d_autogen/mocs_compilation.cpp.o
+
+demo_3d_autogen/mocs_compilation.i: demo_3d_autogen/mocs_compilation.cpp.i
+
+.PHONY : demo_3d_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+demo_3d_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i
+.PHONY : demo_3d_autogen/mocs_compilation.cpp.i
+
+demo_3d_autogen/mocs_compilation.s: demo_3d_autogen/mocs_compilation.cpp.s
+
+.PHONY : demo_3d_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+demo_3d_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s
+.PHONY : demo_3d_autogen/mocs_compilation.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -142,7 +169,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -151,7 +178,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -160,7 +187,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/mainwindow.o: src/mainwindow.cpp.o
@@ -169,7 +196,7 @@ src/mainwindow.o: src/mainwindow.cpp.o
 
 # target to build an object file
 src/mainwindow.cpp.o:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/src/mainwindow.cpp.o
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
 .PHONY : src/mainwindow.cpp.o
 
 src/mainwindow.i: src/mainwindow.cpp.i
@@ -178,7 +205,7 @@ src/mainwindow.i: src/mainwindow.cpp.i
 
 # target to preprocess a source file
 src/mainwindow.cpp.i:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/src/mainwindow.cpp.i
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i
 .PHONY : src/mainwindow.cpp.i
 
 src/mainwindow.s: src/mainwindow.cpp.s
@@ -187,35 +214,8 @@ src/mainwindow.s: src/mainwindow.cpp.s
 
 # target to generate assembly for a file
 src/mainwindow.cpp.s:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/src/mainwindow.cpp.s
+	$(MAKE) -f CMakeFiles/demo_3d.dir/build.make CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s
 .PHONY : src/mainwindow.cpp.s
-
-ui_autogen/mocs_compilation.o: ui_autogen/mocs_compilation.cpp.o
-
-.PHONY : ui_autogen/mocs_compilation.o
-
-# target to build an object file
-ui_autogen/mocs_compilation.cpp.o:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/ui_autogen/mocs_compilation.cpp.o
-.PHONY : ui_autogen/mocs_compilation.cpp.o
-
-ui_autogen/mocs_compilation.i: ui_autogen/mocs_compilation.cpp.i
-
-.PHONY : ui_autogen/mocs_compilation.i
-
-# target to preprocess a source file
-ui_autogen/mocs_compilation.cpp.i:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/ui_autogen/mocs_compilation.cpp.i
-.PHONY : ui_autogen/mocs_compilation.cpp.i
-
-ui_autogen/mocs_compilation.s: ui_autogen/mocs_compilation.cpp.s
-
-.PHONY : ui_autogen/mocs_compilation.s
-
-# target to generate assembly for a file
-ui_autogen/mocs_compilation.cpp.s:
-	$(MAKE) -f CMakeFiles/ui.dir/build.make CMakeFiles/ui.dir/ui_autogen/mocs_compilation.cpp.s
-.PHONY : ui_autogen/mocs_compilation.cpp.s
 
 # Help Target
 help:
@@ -224,18 +224,18 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... ui"
+	@echo "... demo_3d"
 	@echo "... edit_cache"
-	@echo "... ui_autogen"
+	@echo "... demo_3d_autogen"
+	@echo "... demo_3d_autogen/mocs_compilation.o"
+	@echo "... demo_3d_autogen/mocs_compilation.i"
+	@echo "... demo_3d_autogen/mocs_compilation.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/mainwindow.o"
 	@echo "... src/mainwindow.i"
 	@echo "... src/mainwindow.s"
-	@echo "... ui_autogen/mocs_compilation.o"
-	@echo "... ui_autogen/mocs_compilation.i"
-	@echo "... ui_autogen/mocs_compilation.s"
 .PHONY : help
 
 
