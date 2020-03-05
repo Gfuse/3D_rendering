@@ -14,6 +14,8 @@
 #include <vtkVectorText.h>
 #include <vtkElevationFilter.h>
 #include <vtkPolyDataMapper.h>
+#include <vtkProperty.h>
+#include <vtkSphereSource.h>
 //#include <vtkPNGReader.h>
 //#include <vtkVersion.h>
 //#include <vtkSmartPointer.h>
@@ -46,8 +48,11 @@ public:
 private:
   Ui::MainWindow *ui;
   vtkNew<vtkRenderer> ren;
+  int i=0;
 private slots:
-  void show_bottom();
+  void show_text();
+  void show_mesh();
+  void show_point_cloud();
 };
 
 #endif // MAINWINDOW_H
