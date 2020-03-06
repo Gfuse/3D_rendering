@@ -29,6 +29,12 @@ vtkProperty.h
 -
 vtkSphereSource.h
 -
+vtkPolyData.h
+-
+vtkSTLReader.h
+-
+QFileDialog
+-
 
 /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/6YEA5652QU/moc_mainwindow.cpp
 memory
@@ -66,6 +72,12 @@ vtkPolyDataMapper.h
 vtkProperty.h
 -
 vtkSphereSource.h
+-
+vtkPolyData.h
+-
+vtkSTLReader.h
+-
+QFileDialog
 -
 
 /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp
@@ -246,6 +258,16 @@ map
 utility
 -
 
+/home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdir.h
+QtCore/qstring.h
+-
+QtCore/qfileinfo.h
+-
+QtCore/qstringlist.h
+-
+QtCore/qshareddata.h
+-
+
 /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qeventloop.h
 QtCore/qobject.h
 -
@@ -262,6 +284,16 @@ stdio.h
 QtCore/qiodevice.h
 -
 QtCore/qstring.h
+-
+
+/home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfileinfo.h
+QtCore/qfile.h
+-
+QtCore/qlist.h
+-
+QtCore/qshareddata.h
+-
+QtCore/qmetatype.h
 -
 
 /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qflags.h
@@ -1140,6 +1172,10 @@ QtGui/qtguiglobal.h
 qapplication.h
 /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qapplication.h
 
+/home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QFileDialog
+qfiledialog.h
+/home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qfiledialog.h
+
 /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QHBoxLayout
 qboxlayout.h
 /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qboxlayout.h
@@ -1206,6 +1242,26 @@ limits.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
+-
+
+/home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qwidget.h
+-
+
+/home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qfiledialog.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtCore/qdir.h
+-
+QtCore/qstring.h
+-
+QtCore/qurl.h
+-
+QtWidgets/qdialog.h
+-
+functional
 -
 
 /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qframe.h
@@ -1371,6 +1427,12 @@ vtkRenderingCoreModule.h
 /usr/local/include/vtk-8.2/vtkRenderingCoreModule.h
 vtkAbstractMapper.h
 /usr/local/include/vtk-8.2/vtkAbstractMapper.h
+
+/usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
+vtkIOCoreModule.h
+/usr/local/include/vtk-8.2/vtkIOCoreModule.h
+vtkPolyDataAlgorithm.h
+/usr/local/include/vtk-8.2/vtkPolyDataAlgorithm.h
 
 /usr/local/include/vtk-8.2/vtkActor.h
 vtkRenderingCoreModule.h
@@ -1573,6 +1635,12 @@ vtkRenderingOpenGL2Module.h
 /usr/local/include/vtk-8.2/vtkRenderingOpenGL2Module.h
 vtkOpenGLRenderWindow.h
 /usr/local/include/vtk-8.2/vtkOpenGLRenderWindow.h
+
+/usr/local/include/vtk-8.2/vtkIOCoreModule.h
+
+/usr/local/include/vtk-8.2/vtkIOGeometryModule.h
+vtkAutoInit.h
+/usr/local/include/vtk-8.2/vtkAutoInit.h
 
 /usr/local/include/vtk-8.2/vtkIOStream.h
 vtkConfigure.h
@@ -1831,6 +1899,12 @@ vtkAutoInit.h
 /usr/local/include/vtk-8.2/vtkAutoInit.h
 
 /usr/local/include/vtk-8.2/vtkRenderingOpenGLConfigure.h
+
+/usr/local/include/vtk-8.2/vtkSTLReader.h
+vtkIOGeometryModule.h
+/usr/local/include/vtk-8.2/vtkIOGeometryModule.h
+vtkAbstractPolyDataReader.h
+/usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
 
 /usr/local/include/vtk-8.2/vtkSetGet.h
 vtkCommonCoreModule.h

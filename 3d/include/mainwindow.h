@@ -16,7 +16,9 @@
 #include <vtkPolyDataMapper.h>
 #include <vtkProperty.h>
 #include <vtkSphereSource.h>
-//#include <vtkPNGReader.h>
+#include <vtkPolyData.h>
+#include <vtkSTLReader.h>
+#include <QFileDialog>
 //#include <vtkVersion.h>
 //#include <vtkSmartPointer.h>
 //#include <vtkCellArray.h>
@@ -53,6 +55,7 @@ private slots:
   void show_text();
   void show_mesh();
   void show_point_cloud();
+  void show_stl();
 };
 
 #endif // MAINWINDOW_H

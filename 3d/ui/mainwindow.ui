@@ -45,6 +45,13 @@
          </widget>
         </item>
         <item>
+         <widget class="QPushButton" name="stl">
+          <property name="text">
+           <string>OPen STL</string>
+          </property>
+         </widget>
+        </item>
+        <item>
          <widget class="QPushButton" name="mesh">
           <property name="text">
            <string>Mesh</string>

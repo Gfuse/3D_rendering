@@ -24,9 +24,11 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qcoreevent.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdatastream.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdebug.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdir.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qeventloop.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfile.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfiledevice.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfileinfo.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qflags.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qgenericatomic.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qglobal.h
@@ -109,10 +111,13 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs_win.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QApplication
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QFileDialog
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QMainWindow
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QWidget
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qapplication.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdesktopwidget.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdialog.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qfiledialog.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qmainwindow.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qsizepolicy.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qtabwidget.h
@@ -126,6 +131,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o
  /usr/local/include/vtk-8.2/vtkAbstractCellLinks.h
  /usr/local/include/vtk-8.2/vtkAbstractMapper.h
  /usr/local/include/vtk-8.2/vtkAbstractMapper3D.h
+ /usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
  /usr/local/include/vtk-8.2/vtkActor.h
  /usr/local/include/vtk-8.2/vtkActorCollection.h
  /usr/local/include/vtk-8.2/vtkAlgorithm.h
@@ -157,6 +163,8 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o
  /usr/local/include/vtk-8.2/vtkGenericDataArray.txx
  /usr/local/include/vtk-8.2/vtkGenericDataArrayLookupHelper.h
  /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
+ /usr/local/include/vtk-8.2/vtkIOCoreModule.h
+ /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
  /usr/local/include/vtk-8.2/vtkIOStream.h
  /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
  /usr/local/include/vtk-8.2/vtkIdList.h
@@ -189,6 +197,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o
  /usr/local/include/vtk-8.2/vtkRenderingFreeTypeModule.h
  /usr/local/include/vtk-8.2/vtkRenderingOpenGL2Module.h
  /usr/local/include/vtk-8.2/vtkRenderingOpenGLConfigure.h
+ /usr/local/include/vtk-8.2/vtkSTLReader.h
  /usr/local/include/vtk-8.2/vtkSetGet.h
  /usr/local/include/vtk-8.2/vtkSmartPointer.h
  /usr/local/include/vtk-8.2/vtkSmartPointerBase.h
@@ -239,9 +248,11 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qcoreevent.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdatastream.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdebug.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdir.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qeventloop.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfile.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfiledevice.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfileinfo.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qflags.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qgenericatomic.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qglobal.h
@@ -326,10 +337,13 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs_win.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QApplication
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QFileDialog
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QMainWindow
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QWidget
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qapplication.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdesktopwidget.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdialog.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qfiledialog.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qmainwindow.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qsizepolicy.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qtabwidget.h
@@ -343,6 +357,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o
  /usr/local/include/vtk-8.2/vtkAbstractCellLinks.h
  /usr/local/include/vtk-8.2/vtkAbstractMapper.h
  /usr/local/include/vtk-8.2/vtkAbstractMapper3D.h
+ /usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
  /usr/local/include/vtk-8.2/vtkActor.h
  /usr/local/include/vtk-8.2/vtkActorCollection.h
  /usr/local/include/vtk-8.2/vtkAlgorithm.h
@@ -374,6 +389,8 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o
  /usr/local/include/vtk-8.2/vtkGenericDataArray.txx
  /usr/local/include/vtk-8.2/vtkGenericDataArrayLookupHelper.h
  /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
+ /usr/local/include/vtk-8.2/vtkIOCoreModule.h
+ /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
  /usr/local/include/vtk-8.2/vtkIOStream.h
  /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
  /usr/local/include/vtk-8.2/vtkIdList.h
@@ -406,6 +423,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o
  /usr/local/include/vtk-8.2/vtkRenderingFreeTypeModule.h
  /usr/local/include/vtk-8.2/vtkRenderingOpenGL2Module.h
  /usr/local/include/vtk-8.2/vtkRenderingOpenGLConfigure.h
+ /usr/local/include/vtk-8.2/vtkSTLReader.h
  /usr/local/include/vtk-8.2/vtkSetGet.h
  /usr/local/include/vtk-8.2/vtkSmartPointer.h
  /usr/local/include/vtk-8.2/vtkSmartPointerBase.h
@@ -458,9 +476,11 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qcoreevent.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdatastream.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdebug.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdir.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qeventloop.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfile.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfiledevice.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfileinfo.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qflags.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qgenericatomic.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qglobal.h
@@ -543,6 +563,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs_win.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QApplication
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QFileDialog
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QHBoxLayout
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QLabel
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QMainWindow
@@ -553,6 +574,8 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qapplication.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qboxlayout.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdesktopwidget.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdialog.h
+ /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qfiledialog.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qframe.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qgridlayout.h
  /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qlabel.h
@@ -572,6 +595,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
  /usr/local/include/vtk-8.2/vtkAbstractCellLinks.h
  /usr/local/include/vtk-8.2/vtkAbstractMapper.h
  /usr/local/include/vtk-8.2/vtkAbstractMapper3D.h
+ /usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
  /usr/local/include/vtk-8.2/vtkActor.h
  /usr/local/include/vtk-8.2/vtkActorCollection.h
  /usr/local/include/vtk-8.2/vtkAlgorithm.h
@@ -603,6 +627,8 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
  /usr/local/include/vtk-8.2/vtkGenericDataArray.txx
  /usr/local/include/vtk-8.2/vtkGenericDataArrayLookupHelper.h
  /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
+ /usr/local/include/vtk-8.2/vtkIOCoreModule.h
+ /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
  /usr/local/include/vtk-8.2/vtkIOStream.h
  /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
  /usr/local/include/vtk-8.2/vtkIdList.h
@@ -635,6 +661,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
  /usr/local/include/vtk-8.2/vtkRenderingFreeTypeModule.h
  /usr/local/include/vtk-8.2/vtkRenderingOpenGL2Module.h
  /usr/local/include/vtk-8.2/vtkRenderingOpenGLConfigure.h
+ /usr/local/include/vtk-8.2/vtkSTLReader.h
  /usr/local/include/vtk-8.2/vtkSetGet.h
  /usr/local/include/vtk-8.2/vtkSmartPointer.h
  /usr/local/include/vtk-8.2/vtkSmartPointerBase.h

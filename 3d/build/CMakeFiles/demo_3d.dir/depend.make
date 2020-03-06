@@ -23,9 +23,11 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qcoreevent.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdatastream.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdebug.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdir.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qeventloop.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfile.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfiledevice.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfileinfo.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qflags.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qgenericatomic.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qglobal.h
@@ -108,10 +110,13 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs_win.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QApplication
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QFileDialog
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QMainWindow
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QWidget
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qapplication.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdesktopwidget.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdialog.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qfiledialog.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qmainwindow.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qsizepolicy.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qtabwidget.h
@@ -125,6 +130,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/includ
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractCellLinks.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractMapper.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractMapper3D.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkActor.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkActorCollection.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkAlgorithm.h
@@ -156,6 +162,8 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/includ
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkGenericDataArray.txx
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkGenericDataArrayLookupHelper.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOCoreModule.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOStream.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIdList.h
@@ -188,6 +196,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/includ
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingFreeTypeModule.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingOpenGL2Module.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingOpenGLConfigure.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkSTLReader.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkSetGet.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkSmartPointer.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkSmartPointerBase.h
@@ -238,9 +247,11 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/Q
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qcoreevent.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdatastream.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdebug.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdir.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qeventloop.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfile.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfiledevice.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfileinfo.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qflags.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qgenericatomic.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qglobal.h
@@ -325,10 +336,13 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/Q
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs_win.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QApplication
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QFileDialog
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QMainWindow
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QWidget
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qapplication.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdesktopwidget.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdialog.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qfiledialog.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qmainwindow.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qsizepolicy.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qtabwidget.h
@@ -342,6 +356,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractArr
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractCellLinks.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractMapper.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractMapper3D.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkActor.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkActorCollection.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkAlgorithm.h
@@ -373,6 +388,8 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkGenericData
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkGenericDataArray.txx
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkGenericDataArrayLookupHelper.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOCoreModule.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOStream.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIdList.h
@@ -405,6 +422,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingCo
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingFreeTypeModule.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingOpenGL2Module.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingOpenGLConfigure.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkSTLReader.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkSetGet.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkSmartPointer.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkSmartPointerBase.h
@@ -457,9 +475,11 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/inc
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qcoreevent.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdatastream.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdebug.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qdir.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qeventloop.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfile.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfiledevice.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qfileinfo.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qflags.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qgenericatomic.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore/qglobal.h
@@ -542,6 +562,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/inc
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui/qwindowdefs_win.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QApplication
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QFileDialog
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QHBoxLayout
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QLabel
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/QMainWindow
@@ -552,6 +573,8 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/inc
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qapplication.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qboxlayout.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdesktopwidget.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qdialog.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qfiledialog.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qframe.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qgridlayout.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets/qlabel.h
@@ -571,6 +594,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkAbstr
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractCellLinks.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractMapper.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractMapper3D.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkActor.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkActorCollection.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkAlgorithm.h
@@ -602,6 +626,8 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkGener
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkGenericDataArray.txx
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkGenericDataArrayLookupHelper.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOCoreModule.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOStream.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIdList.h
@@ -634,6 +660,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkRende
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingFreeTypeModule.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingOpenGL2Module.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkRenderingOpenGLConfigure.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkSTLReader.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkSetGet.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkSmartPointer.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkSmartPointerBase.h

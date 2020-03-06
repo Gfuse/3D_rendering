@@ -55,7 +55,7 @@ include CMakeFiles/demo_3d_autogen.dir/progress.make
 
 CMakeFiles/demo_3d_autogen:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC for target demo_3d"
-	/usr/bin/cmake -E cmake_autogen /home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles/demo_3d_autogen.dir Debug
+	/usr/bin/cmake -E cmake_autogen /home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles/demo_3d_autogen.dir ""
 
 demo_3d_autogen: CMakeFiles/demo_3d_autogen
 demo_3d_autogen: CMakeFiles/demo_3d_autogen.dir/build.make

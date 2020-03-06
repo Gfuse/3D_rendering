@@ -18,6 +18,9 @@ find_package(VTK COMPONENTS
   vtkInfovisCore
   vtkInteractionStyle
   vtkViewsQt
+  vtkIOPLY
+  vtkIOGeometry
+  QUIET
 )
 if (NOT VTK_FOUND)
   message("${PROJECT_NAME}: ${VTK_NOT_FOUND_MESSAGE}")

@@ -64,15 +64,15 @@ ui_mainwindow.h: ../ui/mainwindow.ui
 CMakeFiles/demo_3d.dir/src/main.cpp.o: CMakeFiles/demo_3d.dir/flags.make
 CMakeFiles/demo_3d.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo_3d.dir/src/main.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/src/main.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/src/main.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp
 
 CMakeFiles/demo_3d.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_3d.dir/src/main.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp > CMakeFiles/demo_3d.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp > CMakeFiles/demo_3d.dir/src/main.cpp.i
 
 CMakeFiles/demo_3d.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_3d.dir/src/main.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp -o CMakeFiles/demo_3d.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp -o CMakeFiles/demo_3d.dir/src/main.cpp.s
 
 CMakeFiles/demo_3d.dir/src/main.cpp.o.requires:
 
@@ -88,15 +88,15 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o.provides.build: CMakeFiles/demo_3d.dir/src
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: CMakeFiles/demo_3d.dir/flags.make
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: ../src/mainwindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp
 
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp > CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp > CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i
 
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp -o CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp -o CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s
 
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o.requires:
 
@@ -112,15 +112,15 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o.provides.build: CMakeFiles/demo_3d.d
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: CMakeFiles/demo_3d.dir/flags.make
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: demo_3d_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp
 
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp > CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp > CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp -o CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp -o CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o.requires:
 
@@ -156,6 +156,9 @@ demo_3d: /usr/local/lib/libvtkRenderingContext2D-8.2.so.1
 demo_3d: /usr/local/lib/libvtkFiltersImaging-8.2.so.1
 demo_3d: /usr/local/lib/libvtkInfovisLayout-8.2.so.1
 demo_3d: /usr/local/lib/libvtkRenderingLabel-8.2.so.1
+demo_3d: /usr/local/lib/libvtkIOPLY-8.2.so.1
+demo_3d: /usr/local/lib/libvtkIOGeometry-8.2.so.1
+demo_3d: /usr/local/lib/libvtkIOLegacy-8.2.so.1
 demo_3d: /home/majid/SW/Qt/5.13.1/gcc_64/lib/libQt5Widgets.so.5.13.1
 demo_3d: /home/majid/SW/Qt/5.13.1/gcc_64/lib/libQt5Gui.so.5.13.1
 demo_3d: /home/majid/SW/Qt/5.13.1/gcc_64/lib/libQt5Core.so.5.13.1
@@ -171,10 +174,6 @@ demo_3d: /usr/local/lib/libvtkFiltersHybrid-8.2.so.1
 demo_3d: /usr/local/lib/libvtkRenderingVolume-8.2.so.1
 demo_3d: /usr/local/lib/libvtkIOXML-8.2.so.1
 demo_3d: /usr/local/lib/libvtkIOXMLParser-8.2.so.1
-demo_3d: /usr/local/lib/libvtkIOCore-8.2.so.1
-demo_3d: /usr/local/lib/libvtkdoubleconversion-8.2.so.1
-demo_3d: /usr/local/lib/libvtklz4-8.2.so.1
-demo_3d: /usr/local/lib/libvtklzma-8.2.so.1
 demo_3d: /usr/local/lib/libvtkexpat-8.2.so.1
 demo_3d: /usr/local/lib/libvtkRenderingAnnotation-8.2.so.1
 demo_3d: /usr/local/lib/libvtkImagingColor-8.2.so.1
@@ -187,12 +186,6 @@ demo_3d: /usr/local/lib/libvtkImagingFourier-8.2.so.1
 demo_3d: /usr/local/lib/libvtkFiltersModeling-8.2.so.1
 demo_3d: /usr/local/lib/libvtkImagingHybrid-8.2.so.1
 demo_3d: /usr/local/lib/libvtkImagingCore-8.2.so.1
-demo_3d: /usr/local/lib/libvtkIOImage-8.2.so.1
-demo_3d: /usr/local/lib/libvtkDICOMParser-8.2.so.1
-demo_3d: /usr/local/lib/libvtkmetaio-8.2.so.1
-demo_3d: /usr/local/lib/libvtkpng-8.2.so.1
-demo_3d: /usr/local/lib/libvtktiff-8.2.so.1
-demo_3d: /usr/local/lib/libvtkjpeg-8.2.so.1
 demo_3d: /usr/local/lib/libvtkRenderingFreeType-8.2.so.1
 demo_3d: /usr/local/lib/libvtkRenderingCore-8.2.so.1
 demo_3d: /usr/local/lib/libvtkFiltersSources-8.2.so.1
@@ -201,6 +194,14 @@ demo_3d: /usr/local/lib/libvtkCommonComputationalGeometry-8.2.so.1
 demo_3d: /usr/local/lib/libvtkCommonColor-8.2.so.1
 demo_3d: /usr/local/lib/libvtkFiltersGeometry-8.2.so.1
 demo_3d: /usr/local/lib/libvtkFiltersCore-8.2.so.1
+demo_3d: /usr/local/lib/libvtkfreetype-8.2.so.1
+demo_3d: /usr/local/lib/libvtkIOImage-8.2.so.1
+demo_3d: /usr/local/lib/libvtkDICOMParser-8.2.so.1
+demo_3d: /usr/local/lib/libvtkmetaio-8.2.so.1
+demo_3d: /usr/local/lib/libvtkpng-8.2.so.1
+demo_3d: /usr/local/lib/libvtktiff-8.2.so.1
+demo_3d: /usr/local/lib/libvtkjpeg-8.2.so.1
+demo_3d: /usr/local/lib/libvtkIOCore-8.2.so.1
 demo_3d: /usr/local/lib/libvtkCommonExecutionModel-8.2.so.1
 demo_3d: /usr/local/lib/libvtkCommonDataModel-8.2.so.1
 demo_3d: /usr/local/lib/libvtkCommonTransforms-8.2.so.1
@@ -209,8 +210,10 @@ demo_3d: /usr/local/lib/libvtkCommonMath-8.2.so.1
 demo_3d: /usr/local/lib/libvtkCommonSystem-8.2.so.1
 demo_3d: /usr/local/lib/libvtkCommonCore-8.2.so.1
 demo_3d: /usr/local/lib/libvtksys-8.2.so.1
-demo_3d: /usr/local/lib/libvtkfreetype-8.2.so.1
 demo_3d: /usr/local/lib/libvtkzlib-8.2.so.1
+demo_3d: /usr/local/lib/libvtkdoubleconversion-8.2.so.1
+demo_3d: /usr/local/lib/libvtklz4-8.2.so.1
+demo_3d: /usr/local/lib/libvtklzma-8.2.so.1
 demo_3d: CMakeFiles/demo_3d.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable demo_3d"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_3d.dir/link.txt --verbose=$(VERBOSE)
