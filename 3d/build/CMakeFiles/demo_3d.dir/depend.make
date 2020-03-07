@@ -187,6 +187,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/includ
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPolyData.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPolyDataAlgorithm.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPolyDataMapper.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPolygon.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkProp.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkProp3D.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPropCollection.h
@@ -217,6 +218,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/includ
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkVector.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkVectorText.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkVersionMacros.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkVertex.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkViewport.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkVolume.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkVolumeCollection.h
@@ -415,6 +417,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPoints.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPolyData.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPolyDataAlgorithm.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPolyDataMapper.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPolygon.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkProp.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkProp3D.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPropCollection.h
@@ -445,6 +448,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkVariantInli
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkVector.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkVectorText.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkVersionMacros.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkVertex.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkViewport.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkVolume.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkVolumeCollection.h
@@ -655,6 +659,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPoint
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPolyData.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPolyDataAlgorithm.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPolyDataMapper.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPolygon.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkProp.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkProp3D.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPropCollection.h
@@ -685,6 +690,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkVaria
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkVector.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkVectorText.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkVersionMacros.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkVertex.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkViewport.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkVolume.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkVolumeCollection.h

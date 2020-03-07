@@ -64,15 +64,15 @@ ui_mainwindow.h: ../ui/mainwindow.ui
 CMakeFiles/demo_3d.dir/src/main.cpp.o: CMakeFiles/demo_3d.dir/flags.make
 CMakeFiles/demo_3d.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/demo_3d.dir/src/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/src/main.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/src/main.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp
 
 CMakeFiles/demo_3d.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_3d.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp > CMakeFiles/demo_3d.dir/src/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp > CMakeFiles/demo_3d.dir/src/main.cpp.i
 
 CMakeFiles/demo_3d.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_3d.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp -o CMakeFiles/demo_3d.dir/src/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/src/main.cpp -o CMakeFiles/demo_3d.dir/src/main.cpp.s
 
 CMakeFiles/demo_3d.dir/src/main.cpp.o.requires:
 
@@ -88,15 +88,15 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o.provides.build: CMakeFiles/demo_3d.dir/src
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: CMakeFiles/demo_3d.dir/flags.make
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: ../src/mainwindow.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp
 
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp > CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp > CMakeFiles/demo_3d.dir/src/mainwindow.cpp.i
 
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp -o CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/src/mainwindow.cpp -o CMakeFiles/demo_3d.dir/src/mainwindow.cpp.s
 
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o.requires:
 
@@ -112,15 +112,15 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o.provides.build: CMakeFiles/demo_3d.d
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: CMakeFiles/demo_3d.dir/flags.make
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: demo_3d_autogen/mocs_compilation.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/majid/Projects/p_demo_02_3d/3d/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o -c /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp
 
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp > CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp > CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp -o CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/majid/Projects/p_demo_02_3d/3d/build/demo_3d_autogen/mocs_compilation.cpp -o CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o.requires:
 

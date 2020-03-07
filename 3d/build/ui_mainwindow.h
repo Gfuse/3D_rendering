@@ -46,6 +46,9 @@ public:
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(MainWindow->sizePolicy().hasHeightForWidth());
         MainWindow->setSizePolicy(sizePolicy);
+        QFont font;
+        font.setFamily(QString::fromUtf8("Noto Sans"));
+        MainWindow->setFont(font);
         MainWindow->setStyleSheet(QString::fromUtf8(""));
         horizontalLayoutWidget = new QWidget(MainWindow);
         horizontalLayoutWidget->setObjectName(QString::fromUtf8("horizontalLayoutWidget"));

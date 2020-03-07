@@ -35,6 +35,10 @@ vtkSTLReader.h
 -
 vtkPLYReader.h
 -
+vtkPolygon.h
+-
+vtkVertex.h
+-
 QFileDialog
 -
 
@@ -80,6 +84,10 @@ vtkPolyData.h
 vtkSTLReader.h
 -
 vtkPLYReader.h
+-
+vtkPolygon.h
+-
+vtkVertex.h
 -
 QFileDialog
 -
@@ -1832,6 +1840,12 @@ vtkRenderingCoreModule.h
 vtkMapper.h
 /usr/local/include/vtk-8.2/vtkMapper.h
 
+/usr/local/include/vtk-8.2/vtkPolygon.h
+vtkCommonDataModelModule.h
+/usr/local/include/vtk-8.2/vtkCommonDataModelModule.h
+vtkCell.h
+/usr/local/include/vtk-8.2/vtkCell.h
+
 /usr/local/include/vtk-8.2/vtkProp.h
 vtkRenderingCoreModule.h
 /usr/local/include/vtk-8.2/vtkRenderingCoreModule.h
@@ -2071,6 +2085,12 @@ vtkPolyDataAlgorithm.h
 /usr/local/include/vtk-8.2/vtkPolyDataAlgorithm.h
 
 /usr/local/include/vtk-8.2/vtkVersionMacros.h
+
+/usr/local/include/vtk-8.2/vtkVertex.h
+vtkCommonDataModelModule.h
+/usr/local/include/vtk-8.2/vtkCommonDataModelModule.h
+vtkCell.h
+/usr/local/include/vtk-8.2/vtkCell.h
 
 /usr/local/include/vtk-8.2/vtkViewport.h
 vtkRenderingCoreModule.h

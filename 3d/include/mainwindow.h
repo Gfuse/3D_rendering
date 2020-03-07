@@ -2,11 +2,6 @@
 #define MAINWINDOW_H
 #include <QApplication>
 #include <QMainWindow>
-// Point Cloud Library
-//#include <pcl/point_cloud.h>
-//#include <pcl/point_types.h>
-//#include <pcl/visualization/pcl_visualizer.h>
-// Visualization Toolkit (VTK)
 #include <QVTKOpenGLWidget.h>
 #include <vtkGenericOpenGLRenderWindow.h>
 #include <vtkNew.h>
@@ -19,18 +14,9 @@
 #include <vtkPolyData.h>
 #include <vtkSTLReader.h>
 #include <vtkPLYReader.h>
+#include <vtkPolygon.h>
+#include <vtkVertex.h>
 #include <QFileDialog>
-//#include <vtkVersion.h>
-//#include <vtkSmartPointer.h>
-//#include <vtkCellArray.h>
-//#include <vtkCellData.h>
-//#include <vtkUnsignedCharArray.h>
-//#include <vtkRenderWindow.h>
-//#include <vtkPoints.h>
-//#include <vtkLine.h>
-//#include <vtkPolyData.h>
-//typedef pcl::PointXYZRGBA PointT;
-//typedef pcl::PointCloud<PointT> PointCloudT;
 
 namespace Ui {
 class MainWindow;
@@ -43,10 +29,6 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-  
-//protected:
- // pcl::visualization::PCLVisualizer::Ptr viewer;
-  //PointCloudT::Ptr cloud;
 
 private:
   Ui::MainWindow *ui;

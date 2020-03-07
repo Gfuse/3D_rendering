@@ -24,12 +24,11 @@ MainWindow::~MainWindow()
 void MainWindow::show_text(){
     // Geometry
     vtkNew<vtkVectorText> text;
-    text->SetText(("Majid Geravant Number "+std::to_string(i)).c_str());
+    text->SetText("Majid Geravant Number ");
     vtkNew<vtkElevationFilter> elevation;
     elevation->SetInputConnection(text->GetOutputPort());
     elevation->SetLowPoint(0,0,0);
     elevation->SetHighPoint(10,0,0);
-    ++i;
     // Mapper
     vtkNew<vtkPolyDataMapper> mapper;
     mapper->SetInputConnection(elevation->GetOutputPort());
@@ -67,16 +66,25 @@ void MainWindow::show_mesh(){
 }
 void MainWindow::show_point_cloud(){
     // Geometry
-    vtkNew<vtkVectorText> text;
-    text->SetText(("Majid Geravant Number "+std::to_string(i)).c_str());
-    vtkNew<vtkElevationFilter> elevation;
-    elevation->SetInputConnection(text->GetOutputPort());
-    elevation->SetLowPoint(0,0,0);
-    elevation->SetHighPoint(10,0,0);
-    ++i;
+    vtkNew<vtkPolyData> data;
+
+    vtkNew<vtkPoints> poly_points;
+    //vtkNew<vtkSphereSource> sphere;
+    vtkNew<vtkVertex> vertex;
+
+    poly_points->SetNumberOfPoints (100);
+    vertex->GetPointIds()->SetNumberOfIds (100);
+
+    for (std::size_t i = 0; i < 100; ++i){
+      poly_points->SetPoint (i, 1024 * rand () / (RAND_MAX + 1.0f), 1024 * rand () / (RAND_MAX + 1.0f), 1024 * rand () / (RAND_MAX + 1.0f));
+      vertex->GetPointIds ()->SetId (i, i);
+    }
+    data->Allocate (1, 1);
+    data->InsertNextCell (vertex->GetCellType (), vertex->GetPointIds ());
+    data->SetPoints (poly_points);
     // Mapper
     vtkNew<vtkPolyDataMapper> mapper;
-    mapper->SetInputConnection(elevation->GetOutputPort());
+    mapper->SetInputData(data);
 
     // Actor in scene
     vtkNew<vtkActor> actor;
