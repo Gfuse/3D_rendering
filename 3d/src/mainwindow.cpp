@@ -11,7 +11,8 @@ MainWindow::MainWindow(QWidget *parent) :
     this->ui->qvtk->GetRenderWindow()->AddRenderer(ren);
     connect(this->ui->text,SIGNAL(clicked()),this,SLOT(show_text()));
     connect(this->ui->mesh,SIGNAL(clicked()),this,SLOT(show_mesh()));
-    connect(this->ui->stl,SIGNAL(clicked()),this,SLOT(show_stl()));
+    connect(this->ui->stl,&QPushButton::clicked,this,[=](){this->show_stl_ply(1);});
+    connect(this->ui->ply,&QPushButton::clicked,this,[=](){this->show_stl_ply(-1);});
     connect(this->ui->point_cloud,SIGNAL(clicked()),this,SLOT(show_point_cloud()));
     this->show();
 }
@@ -88,14 +89,21 @@ void MainWindow::show_point_cloud(){
     this->ui->qvtk->GetRenderWindow()->Render();
 
 }
-void MainWindow::show_stl(){
-    std::string name=(QFileDialog::getOpenFileName(this,tr("Choose a name"),QDir::homePath(),tr("Plyfile (*.stl)"),nullptr,QFileDialog::DontResolveSymlinks|QFileDialog::DontUseNativeDialog|QFileDialog::DontConfirmOverwrite)).toStdString();
+void MainWindow::show_stl_ply(int i){
+    std::string name=(QFileDialog::getOpenFileName(this,tr("Choose a name"),QDir::homePath(),tr("*.stl *.ply"),nullptr,QFileDialog::DontResolveSymlinks|QFileDialog::DontUseNativeDialog|QFileDialog::DontConfirmOverwrite)).toStdString();
     if(!name.empty()){
-    vtkNew<vtkSTLReader> stl_file;
-    stl_file->SetFileName(name.c_str());
-    // Mapper
-    vtkNew<vtkPolyDataMapper> mapper;
-    mapper->SetInputConnection(stl_file->GetOutputPort());
+        vtkNew<vtkPolyDataMapper> mapper;
+        if(i>0){
+            vtkNew<vtkSTLReader> stl_file;
+            stl_file->SetFileName(name.c_str());
+            // Mapper
+            mapper->SetInputConnection(stl_file->GetOutputPort());
+        }else{
+            vtkNew<vtkPLYReader> ply_file;
+            ply_file->SetFileName(name.c_str());
+            // Mapper
+            mapper->SetInputConnection(ply_file->GetOutputPort());
+        }
 
     // Actor in scene
     vtkNew<vtkActor> actor;

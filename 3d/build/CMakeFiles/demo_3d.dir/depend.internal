@@ -165,6 +165,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o
  /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
  /usr/local/include/vtk-8.2/vtkIOCoreModule.h
  /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
+ /usr/local/include/vtk-8.2/vtkIOPLYModule.h
  /usr/local/include/vtk-8.2/vtkIOStream.h
  /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
  /usr/local/include/vtk-8.2/vtkIdList.h
@@ -181,6 +182,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o
  /usr/local/include/vtk-8.2/vtkObjectBase.h
  /usr/local/include/vtk-8.2/vtkObjectFactory.h
  /usr/local/include/vtk-8.2/vtkOpenGLRenderWindow.h
+ /usr/local/include/vtk-8.2/vtkPLYReader.h
  /usr/local/include/vtk-8.2/vtkPointSet.h
  /usr/local/include/vtk-8.2/vtkPoints.h
  /usr/local/include/vtk-8.2/vtkPolyData.h
@@ -391,6 +393,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o
  /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
  /usr/local/include/vtk-8.2/vtkIOCoreModule.h
  /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
+ /usr/local/include/vtk-8.2/vtkIOPLYModule.h
  /usr/local/include/vtk-8.2/vtkIOStream.h
  /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
  /usr/local/include/vtk-8.2/vtkIdList.h
@@ -407,6 +410,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o
  /usr/local/include/vtk-8.2/vtkObjectBase.h
  /usr/local/include/vtk-8.2/vtkObjectFactory.h
  /usr/local/include/vtk-8.2/vtkOpenGLRenderWindow.h
+ /usr/local/include/vtk-8.2/vtkPLYReader.h
  /usr/local/include/vtk-8.2/vtkPointSet.h
  /usr/local/include/vtk-8.2/vtkPoints.h
  /usr/local/include/vtk-8.2/vtkPolyData.h
@@ -629,6 +633,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
  /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
  /usr/local/include/vtk-8.2/vtkIOCoreModule.h
  /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
+ /usr/local/include/vtk-8.2/vtkIOPLYModule.h
  /usr/local/include/vtk-8.2/vtkIOStream.h
  /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
  /usr/local/include/vtk-8.2/vtkIdList.h
@@ -645,6 +650,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o
  /usr/local/include/vtk-8.2/vtkObjectBase.h
  /usr/local/include/vtk-8.2/vtkObjectFactory.h
  /usr/local/include/vtk-8.2/vtkOpenGLRenderWindow.h
+ /usr/local/include/vtk-8.2/vtkPLYReader.h
  /usr/local/include/vtk-8.2/vtkPointSet.h
  /usr/local/include/vtk-8.2/vtkPoints.h
  /usr/local/include/vtk-8.2/vtkPolyData.h

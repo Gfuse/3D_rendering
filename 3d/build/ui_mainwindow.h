@@ -30,6 +30,7 @@ public:
     QVBoxLayout *verticalLayout_2;
     QPushButton *text;
     QPushButton *stl;
+    QPushButton *ply;
     QPushButton *mesh;
     QPushButton *point_cloud;
     QLabel *picture;
@@ -69,6 +70,11 @@ public:
         stl->setObjectName(QString::fromUtf8("stl"));
 
         verticalLayout_2->addWidget(stl);
+
+        ply = new QPushButton(horizontalLayoutWidget);
+        ply->setObjectName(QString::fromUtf8("ply"));
+
+        verticalLayout_2->addWidget(ply);
 
         mesh = new QPushButton(horizontalLayoutWidget);
         mesh->setObjectName(QString::fromUtf8("mesh"));
@@ -116,6 +122,7 @@ public:
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
         text->setText(QCoreApplication::translate("MainWindow", "Text", nullptr));
         stl->setText(QCoreApplication::translate("MainWindow", "OPen STL", nullptr));
+        ply->setText(QCoreApplication::translate("MainWindow", "OPen PLY", nullptr));
         mesh->setText(QCoreApplication::translate("MainWindow", "Mesh", nullptr));
         point_cloud->setText(QCoreApplication::translate("MainWindow", "Point Cloud", nullptr));
         picture->setText(QString());

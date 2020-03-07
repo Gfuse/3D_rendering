@@ -33,6 +33,8 @@ vtkPolyData.h
 -
 vtkSTLReader.h
 -
+vtkPLYReader.h
+-
 QFileDialog
 -
 
@@ -76,6 +78,8 @@ vtkSphereSource.h
 vtkPolyData.h
 -
 vtkSTLReader.h
+-
+vtkPLYReader.h
 -
 QFileDialog
 -
@@ -1642,6 +1646,8 @@ vtkOpenGLRenderWindow.h
 vtkAutoInit.h
 /usr/local/include/vtk-8.2/vtkAutoInit.h
 
+/usr/local/include/vtk-8.2/vtkIOPLYModule.h
+
 /usr/local/include/vtk-8.2/vtkIOStream.h
 vtkConfigure.h
 /usr/local/include/vtk-8.2/vtkConfigure.h
@@ -1777,6 +1783,12 @@ set
 -
 string
 -
+
+/usr/local/include/vtk-8.2/vtkPLYReader.h
+vtkIOPLYModule.h
+/usr/local/include/vtk-8.2/vtkIOPLYModule.h
+vtkAbstractPolyDataReader.h
+/usr/local/include/vtk-8.2/vtkAbstractPolyDataReader.h
 
 /usr/local/include/vtk-8.2/vtkPointSet.h
 vtkCommonDataModelModule.h

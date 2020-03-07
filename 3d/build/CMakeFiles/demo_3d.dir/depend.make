@@ -164,6 +164,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/includ
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOCoreModule.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOPLYModule.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOStream.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkIdList.h
@@ -180,6 +181,7 @@ CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/includ
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkObjectBase.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkObjectFactory.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkOpenGLRenderWindow.h
+CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPLYReader.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPointSet.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPoints.h
 CMakeFiles/demo_3d.dir/demo_3d_autogen/mocs_compilation.cpp.o: /usr/local/include/vtk-8.2/vtkPolyData.h
@@ -390,6 +392,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkGenericData
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOCoreModule.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOPLYModule.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOStream.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkIdList.h
@@ -406,6 +409,7 @@ CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkObject.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkObjectBase.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkObjectFactory.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkOpenGLRenderWindow.h
+CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPLYReader.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPointSet.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPoints.h
 CMakeFiles/demo_3d.dir/src/main.cpp.o: /usr/local/include/vtk-8.2/vtkPolyData.h
@@ -628,6 +632,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkGener
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkGenericOpenGLRenderWindow.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOCoreModule.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOGeometryModule.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOPLYModule.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOStream.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIOStreamFwd.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkIdList.h
@@ -644,6 +649,7 @@ CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkObjec
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkObjectBase.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkObjectFactory.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkOpenGLRenderWindow.h
+CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPLYReader.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPointSet.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPoints.h
 CMakeFiles/demo_3d.dir/src/mainwindow.cpp.o: /usr/local/include/vtk-8.2/vtkPolyData.h
