@@ -1,5 +1,9 @@
 # p_demo_02_3d
 
+![](3d/image/3d_0.png)
+![](3d/image/3d_1.png)
+![](3d/image/3d_2.png)
+
 Requirement
 ------------
     Qt5:

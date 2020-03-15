@@ -14,6 +14,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "QT_CORE_LIB"
   "QT_GUI_LIB"
+  "QT_NO_DEBUG"
   "QT_WIDGETS_LIB"
   "vtkRenderingCore_AUTOINIT=3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)"
   )
@@ -23,13 +24,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "."
   "../"
   "demo_3d_autogen/include"
-  "/usr/local/include/vtk-8.2"
   "../include"
-  "/home/majid/SW/Qt/5.13.1/gcc_64/include"
-  "/home/majid/SW/Qt/5.13.1/gcc_64/include/QtCore"
-  "/home/majid/SW/Qt/5.13.1/gcc_64/./mkspecs/linux-g++"
-  "/home/majid/SW/Qt/5.13.1/gcc_64/include/QtGui"
-  "/home/majid/SW/Qt/5.13.1/gcc_64/include/QtWidgets"
+  "/usr/local/include/vtk-8.2"
+  "/home/majid/SW/Qt/5.14.1/gcc_64/include"
+  "/home/majid/SW/Qt/5.14.1/gcc_64/include/QtCore"
+  "/home/majid/SW/Qt/5.14.1/gcc_64/./mkspecs/linux-g++"
+  "/home/majid/SW/Qt/5.14.1/gcc_64/include/QtGui"
+  "/home/majid/SW/Qt/5.14.1/gcc_64/include/QtWidgets"
   )
 
 # Targets to which this target links.

@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
-  "demo_3d_autogen"
-  "CMakeFiles/demo_3d_autogen.dir/AutogenOldSettings.cmake"
   "CMakeFiles/demo_3d_autogen"
+  "demo_3d_autogen/mocs_compilation.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

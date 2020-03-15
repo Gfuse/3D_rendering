@@ -37,7 +37,7 @@ include(${VTK_USE_FILE})
 #-------------find qt
 set(CMAKE_AUTOMOC ON)
 
-find_package(Qt5 5.13 COMPONENTS Widgets REQUIRED QUIET)
+find_package(Qt5 COMPONENTS Widgets REQUIRED QUIET)
 
 
 qt5_wrap_ui(UI_HEADERS ui/mainwindow.ui)

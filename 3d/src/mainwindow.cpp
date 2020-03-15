@@ -24,7 +24,7 @@ MainWindow::~MainWindow()
 void MainWindow::show_text(){
     // Geometry
     vtkNew<vtkVectorText> text;
-    text->SetText("Majid Geravant Number ");
+    text->SetText("Majid Geravant");
     vtkNew<vtkElevationFilter> elevation;
     elevation->SetInputConnection(text->GetOutputPort());
     elevation->SetLowPoint(0,0,0);
