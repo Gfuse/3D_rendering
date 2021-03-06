@@ -1,4 +1,4 @@
-# p_3D_rendering
+# 3D_rendering
 
 ![](3d/image/3d_0.png)
 ![](3d/image/3d_1.png)
